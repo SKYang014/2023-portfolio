@@ -9,7 +9,7 @@ export default function About() {
         setCurrentPhoto(prevState => prevState === photo ? DV : photo)
     }
     return (
-        <div className="hero min-h-screen bg-base-200">
+        <div className="hero min-h-screen bg-base-200" id="about">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img onClick={handleClick} src={`${currentPhoto}`} className="max-w-sm rounded-lg shadow-2xl" />
                 <div>

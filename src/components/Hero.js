@@ -9,8 +9,8 @@ export default function Hero() {
                     <h1 className="mb-5 text-5xl font-bold">Sarah Yang</h1>
                     <p className="mb-5 ">Full Stack Developer Sacramento, CA</p>
                     <div className="btn-group">
-                        <button className="btn btn-active">Projects</button>
-                        <button className="btn">About Me</button>
+                        <a href="#about"><button className="btn">About Me</button></a>
+                        <a href="#portfolio"><button className="btn btn-active">Projects</button></a>
                     </div>
 
                 </div>

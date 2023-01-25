@@ -12,31 +12,6 @@ import Hero from './components/Hero';
 
 function App() {
 
-  // const [categories] = React.useState([
-  //   <About />,
-  //   <Portfolio />,
-  //   <Contact />,
-  //   <Resume />
-  // ])
-  // const [currentCategory, setCurrentCategory] = React.useState(categories[0])
-  // //const [choosen, setChoosen] = React.useState()
-
-  // function toggle(num) {
-  //   console.log("here")
-  //   if (num === 1) {
-  //     setCurrentCategory(<About />)
-  //   }
-  //   else if (num === 2) {
-  //     setCurrentCategory(<Portfolio />)
-  //   }
-  //   else if (num === 3) {
-  //     setCurrentCategory(<Contact />)
-  //   }
-  //   else if (num === 4) {
-  //     setCurrentCategory(<Resume />)
-  //   }
-
-  // }
 
   return (
 
