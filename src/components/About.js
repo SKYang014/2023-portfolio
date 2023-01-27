@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import photo from "../assets/sarah.JPG"
 import DV from "../assets/DV.jpg"
+import github from "../assets/GitHub.png"
+import linked from "../assets/Linkedin.png"
 
 export default function About() {
     const [currentPhoto, setCurrentPhoto] = useState(photo)
@@ -8,11 +10,17 @@ export default function About() {
     const handleClick = () => {
         setCurrentPhoto(prevState => prevState === photo ? DV : photo)
     }
+    const handleLink = (location) => {
+        location === "git" ?
+            window.open("https://github.com/SKYang014")
+            :
+            window.open("https://www.linkedin.com/in/sarah-yang-3b4494132/")
+    }
     return (
         <div className="hero min-h-screen bg-base-200" id="about">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img onClick={handleClick} src={`${currentPhoto}`} className="max-w-sm rounded-lg shadow-2xl" />
-                <div>
+                <div className="mx-4">
                     <h1 className="text-5xl font-bold">Hello!</h1>
                     <p className="py-6">I'm a software
                         developer with a passion for creating intuitive and
@@ -25,9 +33,13 @@ export default function About() {
                     <p className="py-6">
                         I graduated from the University of Wisconsin - Madison
                         with a B.S. in Conservation Biology and a certification
-                        in Archaeology.  I've come a long way from there and am thankful for
-                        the opportunity to develop a unique perspective and approach
-                        to problems.
+                        in Archaeology.  I've come a long way from there and am
+                        thankful for the opportunity to develop a
+                        unique perspective and approach to problems. In the
+                        past year I secured an associate software develper
+                        position and completed two
+                        different software development bootcamps specializing
+                        in the MERN stack and CNET/Angular.
                     </p>
 
                     <p className="py-6">
@@ -35,7 +47,11 @@ export default function About() {
                         friends and family to play, walking my cats in their wagon,
                         and going on trips with my friends.
                     </p>
-                    {/* <button className="btn btn-primary">Get Started</button> */}
+                    <div className="flex justify-center">
+                        <button className="btn btn-secondary mx-2" onClick={() => { handleLink("link") }}>🚀 Message Me On LinkedIn </button>
+                        <button className="btn btn-secondary mx-2" onClick={() => { handleLink("git") }}>🐱‍💻 Github</button>
+                        {/* <button className="btn btn-secondary ml-auto" >👀 Resume</button> */}
+                    </div>
                 </div>
             </div>
         </div >

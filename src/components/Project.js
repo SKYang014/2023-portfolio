@@ -16,7 +16,7 @@ export default function Project(props) {
     }
 
     return (
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <div className="card card-compact w-96 bg-base-100 shadow-xl mx-4">
             <figure onClick={demoClick}><img src={`${props.img}`} alt={`${props.img}`} /></figure>
             <div className="card-body bg-secondary">
                 <h2 className="card-title">{props.title}</h2>

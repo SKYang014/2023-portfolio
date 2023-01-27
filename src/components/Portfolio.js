@@ -13,8 +13,8 @@ export default function Portfolio() {
         )
     })
     return (
-        <div className="flex flex-col content-center justify-center" id="portfolio">
-            {/* <h1 className="mb-5 text-5xl font-bold py-3">Projects</h1> */}
+        <div className="flex flex-col content-center" id="portfolio">
+            <h1 className="mb-10 text-5xl font-bold py-5  text-center">Projects</h1>
             <div className="flex flex-row justify-around content-center ">
                 {projects}
             </div>
