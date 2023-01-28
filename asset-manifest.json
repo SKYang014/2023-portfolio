@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/2023-portfolio/static/css/main.d0aca93c.css",
-    "main.js": "/2023-portfolio/static/js/main.faefa276.js",
+    "main.js": "/2023-portfolio/static/js/main.87500a3b.js",
     "static/media/DV.jpg": "/2023-portfolio/static/media/DV.7ca421164b38503a0f93.jpg",
     "static/media/bridge.jpg": "/2023-portfolio/static/media/bridge.db2346c4292d7783b464.jpg",
     "static/media/sarah.JPG": "/2023-portfolio/static/media/sarah.19065f3d382672e2a32d.JPG",
     "static/media/social.jpg": "/2023-portfolio/static/media/social.1507fcf7f87e539207d7.jpg",
     "static/media/run.jpg": "/2023-portfolio/static/media/run.2bc52908eb5334d600d4.jpg",
     "static/media/Jeff.jfif": "/2023-portfolio/static/media/Jeff.d2213f2487d6819abb66.jfif",
+    "static/media/Joe.jfif": "/2023-portfolio/static/media/Joe.d05a1af1dc447cd7b287.jfif",
     "static/media/Sarah_Resume2022.pdf": "/2023-portfolio/static/media/Sarah_Resume2022.199315b9cb4adab30cbf.pdf",
     "static/media/poken.png": "/2023-portfolio/static/media/poken.3f246956f9584fbe13ea.png",
     "index.html": "/2023-portfolio/index.html",
     "main.d0aca93c.css.map": "/2023-portfolio/static/css/main.d0aca93c.css.map",
-    "main.faefa276.js.map": "/2023-portfolio/static/js/main.faefa276.js.map"
+    "main.87500a3b.js.map": "/2023-portfolio/static/js/main.87500a3b.js.map"
   },
   "entrypoints": [
     "static/css/main.d0aca93c.css",
-    "static/js/main.faefa276.js"
+    "static/js/main.87500a3b.js"
   ]
 }
