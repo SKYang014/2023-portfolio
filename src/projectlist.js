@@ -9,7 +9,7 @@ export default [
         githubUrl: "https://github.com/SKYang014/poke-center",
         demo: "https://pokenav-online.onrender.com/",
         img: (poken),
-        description: "Inspired by the recent pokemon release and the overlooked 3rd pokemon generation, this social media application allows users to create accounts, thoughts, and reactions, add eachother as friends, and manage their own Gen 3 pokemon team,.",
+        description: "Inspired by the recent pokemon release and the overlooked 3rd pokemon generation, this social media application allows users to create accounts, thoughts, and reactions, add eachother as friends, and manage their own Gen 3 pokemon team.",
         features: ["React", "GraphQL", "Apollo/Express Server", "MongoDB", "BCrypt/JSON-Webtokens for Auth", "Render Deployment"]
     },
     {
@@ -18,7 +18,7 @@ export default [
         githubUrl: "",
         demo: "http://3.144.7.34/",
         img: (social),
-        description: "This app allows users to quickly post thoughts with photos, utilizing Amazon Web Services such as Simple Storage Service (S3) for image hosting, Identity Access Management (IAM), Elastic Compute Cloud (EC2), and Virtual Private Cloud (VPC).",
+        description: "This app allows users to quickly post thoughts with photos, utilizing Amazon Web Services such as Simple Storage Service (S3) for image hosting, Identity Access Management (IAM), Elastic Compute Cloud (EC2), DynamoDB, and Virtual Private Cloud (VPC).",
         features: ["React", "AWS Services"]
     },
     {

@@ -2,7 +2,7 @@ import React from 'react'
 import bridge from '../assets/bridge.jpg'
 export default function Hero() {
     return (
-        <div className="hero min-h-screen" style={{ backgroundImage: `url(${bridge})` }}>
+        <div className="hero min-h-screen " style={{ backgroundImage: `url(${bridge})` }}>
             <div className="hero-overlay bg-opacity-20 bg-gradient-to-t from-neutral"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md ">
