@@ -8,9 +8,9 @@ export default function Hero() {
                 <div className="max-w-md ">
                     <h1 className="mb-5 text-5xl font-bold">Sarah Yang</h1>
                     <p className="mb-5 ">Full Stack Developer Sacramento, CA</p>
-                    <div className="btn-group">
-                        <a href="#about"><button className="btn">About Me</button></a>
-                        <a href="#portfolio"><button className="btn btn-active">Projects</button></a>
+                    <div className="btn-group flex justify-center flex-wrap">
+                        <a href="#about"><button className="btn m-3">About Me</button></a>
+                        <a href="#portfolio"><button className="btn m-3">Projects</button></a>
                     </div>
 
                 </div>
